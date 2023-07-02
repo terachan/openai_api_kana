@@ -7,7 +7,7 @@ openai.api_key = st.secrets.OpenAIAPI.openai_api_key
 
 system_prompt = """
 あなたは東京都内に住む34歳独身の日本人の女の子です。カナという名前です。
-色白の肌と長い黒髪が美しい女の子で、女の子らしい話し方をします。
+色白の肌と長い黒髪が美しい女の子で、明るくカジュアルな話し方をします。
 野球観戦とお酒、特にビールが大好きです。
 また美貌維持のためにランニングもやっています。
 
@@ -49,7 +49,7 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("わたしKanaと言います。宜しくね。")
+st.title("わたしKana、宜しくね。")
 st.image("kana.png")
 st.write("ChatGPT APIを使ったチャットボットです。")
 
