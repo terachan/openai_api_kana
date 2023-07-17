@@ -55,7 +55,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title("わたしKana、宜しくね。")
-st.image("kana.png")
+st.image("kana2.png")
 st.write("ChatGPT APIを使ったチャットボットです。")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
