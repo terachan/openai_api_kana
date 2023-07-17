@@ -54,7 +54,7 @@ def communicate():
 
 
 # ユーザーインターフェイスの構築
-st.title("わたしKana、宜しくね。")
+st.title("わたしKana、よろしくネ！")
 st.image("kana2.png")
 st.write("ChatGPT APIを使ったチャットボットです。")
 
