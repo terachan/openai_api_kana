@@ -1,7 +1,5 @@
 
 import streamlit as st
-
-pip install openai==0.28
 import openai
 
 # Streamlit Community Cloudの「Secrets」からOpenAI API keyを取得
